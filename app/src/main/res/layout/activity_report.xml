@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#d5bdaf"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5bdaf"
+    tools:context=".ReportActivity">
+
+    <TextView
+        android:id="@+id/tvReport"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#003049"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="REPORT"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/lltest"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tvReport"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Test Result :"
+            android:textSize="32sp"
+            android:textColor="#003049"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tvRes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Positive"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="#e63946"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/llsevere"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/lltest"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Severity %:"
+            android:textSize="32sp"
+            android:textColor="#003049"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tvPercent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="60"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="#003049"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPrevent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#003049"
+        app:layout_constraintTop_toBottomOf="@id/llsevere"
+        android:text="Preventive Measures"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTreatment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#003049"
+        app:layout_constraintTop_toBottomOf="@id/llsevere"
+        android:text="Treatments"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPreventive"
+        android:layout_margin="20dp"
+        android:textColor="#003049"
+        android:textSize="20sp"
+        android:text="1. Regular Eye Checkups with Opthalmologist &#10;&#10;
+2. Maintain a healthy lifestyle that includes a balanced diet, regular exercise, and proper hydration. &#10;&#10;
+3. Avoid Smoking: Smoking has been linked to an increased risk of glaucoma. &#10;&#10;
+4. Reduce Stress: Chronic stress may have an impact on intraocular pressure."
+        app:layout_constraintTop_toBottomOf="@id/tvPrevent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTreatments"
+        android:layout_margin="20dp"
+        android:textColor="#003049"
+        android:textSize="20sp"
+        android:text="1. Medications: Eye Drops (reduce the production of aqueous humor or improve its drainage) or Oral medications &#10;&#10;
+2. Laser Therapy: Laser procedures, like trabeculoplasty or peripheral iridotomy, can help improve fluid drainage from the eye. &#10;&#10;
+3. Surgery: Surgical options, such as trabeculectomy or minimally invasive glaucoma surgery (MIGS), may be recommended for more advanced cases. &#10;&#10;
+4. Monitoring and Lifestyle: Regular monitoring by an eye care professional is crucial. Maintain a healthy lifestyle that includes a balanced diet."
+        app:layout_constraintTop_toBottomOf="@id/tvTreatment"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
