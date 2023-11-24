@@ -22,6 +22,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="1"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -29,12 +30,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="2"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et3"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="3"/>
@@ -43,11 +46,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="22"
             android:layout_height="match_parent"
             android:hint="4"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et5"
             android:layout_weight="1"
+            android:text="19"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -56,6 +61,7 @@
             android:id="@+id/et6"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="28"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="6"/>
@@ -64,6 +70,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="7"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -71,11 +78,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="8"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et9"
             android:layout_weight="1"
+            android:text="0"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -84,6 +93,7 @@
             android:id="@+id/et10"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="10"/>
@@ -106,11 +116,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="11"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et12"
             android:layout_weight="1"
+            android:text="0"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -119,6 +131,7 @@
             android:id="@+id/et13"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="13"/>
@@ -126,6 +139,7 @@
             android:id="@+id/et14"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="14"/>
@@ -133,6 +147,7 @@
             android:id="@+id/et15"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="28"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="15"/>
@@ -140,6 +155,7 @@
             android:id="@+id/et16"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="28"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="16"/>
@@ -148,6 +164,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="27"
             android:layout_height="match_parent"
             android:hint="17"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -155,6 +172,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="18"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -162,12 +180,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="19"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et20"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="20"/>
@@ -192,6 +212,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="21"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -199,6 +220,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="32"
             android:layout_height="match_parent"
             android:hint="22"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -206,12 +228,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="31"
             android:layout_height="match_parent"
             android:hint="23"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et24"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="24"/>
@@ -219,6 +243,7 @@
             android:id="@+id/et25"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="25"/>
@@ -227,6 +252,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="31"
             android:layout_height="match_parent"
             android:hint="26"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -234,6 +260,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="27"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -241,6 +268,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="28"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -248,12 +276,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="29"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et30"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="30"/>
@@ -278,6 +308,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="32"
             android:layout_height="match_parent"
             android:hint="31"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -285,11 +316,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="32"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et33"
             android:layout_weight="1"
+            android:text="32"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -298,6 +331,7 @@
             android:id="@+id/et34"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="34"/>
@@ -305,6 +339,7 @@
             android:id="@+id/et35"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="33"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="35"/>
@@ -312,12 +347,14 @@
             android:id="@+id/et36"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="36"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et37"
             android:layout_weight="1"
+            android:text="30"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -325,6 +362,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et38"
             android:layout_weight="1"
+            android:text="31"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -333,12 +371,14 @@
             android:id="@+id/et39"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="39"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et40"
             android:layout_weight="1"
+            android:text="26"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -363,11 +403,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="32"
             android:layout_height="match_parent"
             android:hint="41"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et42"
             android:layout_weight="1"
+            android:text="33"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -375,6 +417,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et43"
             android:layout_weight="1"
+            android:text="28"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -382,6 +425,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et44"
             android:layout_weight="1"
+            android:text="31"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -390,12 +434,14 @@
             android:id="@+id/et45"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="34"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="45"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et46"
             android:layout_weight="1"
+            android:text="34"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -403,6 +449,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et47"
             android:layout_weight="1"
+            android:text="33"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -410,6 +457,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et48"
             android:layout_weight="1"
+            android:text="32"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -418,6 +466,7 @@
             android:id="@+id/et49"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="49"/>
@@ -425,6 +474,7 @@
             android:id="@+id/et50"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="50"/>
@@ -447,6 +497,7 @@
             android:id="@+id/et51"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="51"/>
@@ -454,6 +505,7 @@
             android:id="@+id/et52"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="34"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="52"/>
@@ -461,6 +513,7 @@
             android:id="@+id/et53"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="53"/>
@@ -468,6 +521,7 @@
             android:id="@+id/et54"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="54"/>
@@ -475,12 +529,14 @@
             android:id="@+id/et55"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="35"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="55"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et56"
             android:layout_weight="1"
+            android:text="34"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -490,6 +546,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="33"
             android:layout_height="match_parent"
             android:hint="57"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -497,6 +554,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="32"
             android:layout_height="match_parent"
             android:hint="58"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -504,11 +562,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="31"
             android:layout_height="match_parent"
             android:hint="59"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et60"
             android:layout_weight="1"
+            android:text="31"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -532,12 +592,14 @@
             android:id="@+id/et61"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="61"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et62"
             android:layout_weight="1"
+            android:text="31"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -547,11 +609,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="63"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et64"
             android:layout_weight="1"
+            android:text="33"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -560,12 +624,14 @@
             android:id="@+id/et65"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="34"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="65"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et66"
             android:layout_weight="1"
+            android:text="33"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -574,12 +640,14 @@
             android:id="@+id/et67"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="67"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et68"
             android:layout_weight="1"
+            android:text="30"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -589,11 +657,13 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="30"
             android:layout_height="match_parent"
             android:hint="69"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et70"
             android:layout_weight="1"
+            android:text="21"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -618,6 +688,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="71"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -625,6 +696,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="31"
             android:layout_height="match_parent"
             android:hint="72"/>
         <androidx.appcompat.widget.AppCompatEditText
@@ -632,12 +704,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="32"
             android:layout_height="match_parent"
             android:hint="73"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et74"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="74"/>
@@ -645,6 +719,7 @@
             android:id="@+id/et75"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="33"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="75"/>
@@ -652,6 +727,7 @@
             android:id="@+id/et76"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="76"/>
@@ -659,6 +735,7 @@
             android:id="@+id/et77"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="77"/>
@@ -666,6 +743,7 @@
             android:id="@+id/et78"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="78"/>
@@ -673,6 +751,7 @@
             android:id="@+id/et79"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="79"/>
@@ -680,6 +759,7 @@
             android:id="@+id/et80"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="80"/>
@@ -703,18 +783,21 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:inputType="number"
+            android:text="0"
             android:layout_height="match_parent"
             android:hint="81"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et82"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="82"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et83"
             android:layout_weight="1"
+            android:text="32"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -722,6 +805,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et84"
             android:layout_weight="1"
+            android:text="31"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -730,6 +814,7 @@
             android:id="@+id/et85"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="32"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="85"/>
@@ -737,6 +822,7 @@
             android:id="@+id/et86"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="86"/>
@@ -744,12 +830,14 @@
             android:id="@+id/et87"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="87"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et88"
             android:layout_weight="1"
+            android:text="30"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -758,12 +846,14 @@
             android:id="@+id/et89"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="89"/>
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/et90"
             android:layout_weight="1"
+            android:text="0"
             android:layout_width="0dp"
             android:inputType="number"
             android:layout_height="match_parent"
@@ -787,6 +877,7 @@
             android:id="@+id/et91"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="91"/>
@@ -794,6 +885,7 @@
             android:id="@+id/et92"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="92"/>
@@ -801,6 +893,7 @@
             android:id="@+id/et93"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="93"/>
@@ -808,6 +901,7 @@
             android:id="@+id/et94"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="28"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="94"/>
@@ -815,6 +909,7 @@
             android:id="@+id/et95"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="31"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="95"/>
@@ -822,6 +917,7 @@
             android:id="@+id/et96"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="96"/>
@@ -829,6 +925,7 @@
             android:id="@+id/et97"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="30"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="97"/>
@@ -836,6 +933,7 @@
             android:id="@+id/et98"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="98"/>
@@ -843,6 +941,7 @@
             android:id="@+id/et99"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="99"/>
@@ -850,6 +949,7 @@
             android:id="@+id/et100"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:text="0"
             android:inputType="number"
             android:layout_height="match_parent"
             android:hint="100"/>

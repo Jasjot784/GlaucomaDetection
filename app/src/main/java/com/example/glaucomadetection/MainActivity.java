@@ -4,12 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btSubmit;
+    public static final String TAG = "MainActivity";
+    String name,age,gender;
     EditText et1,et2,et3,et4,et5,et6,et7,et8,et9,et10;
     EditText et11,et12,et13,et14,et15,et16,et17,et18,et19,et20;
     EditText et31,et32,et33,et34,et35,et36,et37,et38,et39,et40;
@@ -127,11 +130,51 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et98 = findViewById(R.id.et98);
         et99 = findViewById(R.id.et99);
         et100 = findViewById(R.id.et100);
-    }
 
+        name = getIntent().getStringExtra("Name");
+        age = getIntent().getStringExtra("Age");
+        gender = getIntent().getStringExtra("Gender");
+        Log.d(TAG, "onCreate: "+name+age+gender);
+    }
+    private double sigmoid(double val) {
+        return 1 / (1 + Math.exp(val));
+    }
     @Override
     public void onClick(View view) {
         Intent intent = new Intent(MainActivity.this,ReportActivity.class);
+        intent.putExtra("Name",name);
+        intent.putExtra("Age",age);
+        intent.putExtra("Gender",gender);
+        Log.d(TAG, "beforeClick: "+"My Name is JAsjot");
+        double abc = Float.parseFloat(et4.getText().toString())*0.30006131+Float.parseFloat(et5.getText().toString())*(-0.1249782)+Float.parseFloat(et6.getText().toString())*(0.27143215)
+                +Float.parseFloat(et7.getText().toString())*0.1357409+Float.parseFloat(et13.getText().toString())*(-0.09652442)+Float.parseFloat(et14.getText().toString())*(-0.01022335)+Float.parseFloat(et15.getText().toString())*(-0.07671823)+Float.parseFloat(et16.getText().toString())*0.09374266
+                +Float.parseFloat(et17.getText().toString())*(-0.04533348)+Float.parseFloat(et18.getText().toString())*(0.29993449)+Float.parseFloat(et22.getText().toString())*(-0.15136575)+Float.parseFloat(et23.getText().toString())*0.40745449
+                +Float.parseFloat(et24.getText().toString())*(-0.02229597)+Float.parseFloat(et25.getText().toString())*(0.02962524)+Float.parseFloat(et26.getText().toString())*0.32970424
+                +Float.parseFloat(et27.getText().toString())*(-0.2796899)+Float.parseFloat(et28.getText().toString())*(-0.42586396)+Float.parseFloat(et29.getText().toString())*(-0.06684896)
+                +Float.parseFloat(et31.getText().toString())*0.02563356+Float.parseFloat(et32.getText().toString())*(-0.23423087)+Float.parseFloat(et33.getText().toString())*(-0.14449147)
+                +Float.parseFloat(et34.getText().toString())*0.06799311+Float.parseFloat(et35.getText().toString())*0.17090786+Float.parseFloat(et36.getText().toString())*(-0.04751403)
+                +Float.parseFloat(et37.getText().toString())*(-0.08445918)+Float.parseFloat(et38.getText().toString())*(-0.65131978)+Float.parseFloat(et39.getText().toString())*0.11125387
+                +Float.parseFloat(et40.getText().toString())*0.30108388+Float.parseFloat(et41.getText().toString())*0.54519132+Float.parseFloat(et42.getText().toString())*(-0.02621459)
+                +Float.parseFloat(et43.getText().toString())*0.0145609+Float.parseFloat(et44.getText().toString())*(-0.10470792)+Float.parseFloat(et45.getText().toString())*0.07342421
+                +Float.parseFloat(et46.getText().toString())*(-0.79447227)+Float.parseFloat(et47.getText().toString())*(-0.24282121)+Float.parseFloat(et48.getText().toString())*0.46184423
+                +Float.parseFloat(et49.getText().toString())*0.21282984+Float.parseFloat(et50.getText().toString())*0.44403549+Float.parseFloat(et51.getText().toString())*(-0.22540223)
+                +Float.parseFloat(et52.getText().toString())*0.2052528+Float.parseFloat(et53.getText().toString())*0.19641397+Float.parseFloat(et54.getText().toString())*(-0.48593627)
+                +Float.parseFloat(et55.getText().toString())*0.37983201+Float.parseFloat(et56.getText().toString())*0.48405266+Float.parseFloat(et57.getText().toString())*(-0.33343805)
+                +Float.parseFloat(et58.getText().toString())*0.07164144+Float.parseFloat(et59.getText().toString())*(-0.1055903)+Float.parseFloat(et60.getText().toString())*0.27593729
+                +Float.parseFloat(et61.getText().toString())*0.39756433+Float.parseFloat(et62.getText().toString())*0.03065823+Float.parseFloat(et63.getText().toString())*0.24459233
+                +Float.parseFloat(et64.getText().toString())*(-0.20643645)+Float.parseFloat(et65.getText().toString())*(-0.25121548)+Float.parseFloat(et66.getText().toString())*(-0.07256912)
+                +Float.parseFloat(et67.getText().toString())*0.01056454+Float.parseFloat(et68.getText().toString())*(-0.51741322)+Float.parseFloat(et69.getText().toString())*(-0.25519766)
+                +Float.parseFloat(et70.getText().toString())*(-0.28325398)+Float.parseFloat(et72.getText().toString())*(0.30974673)+Float.parseFloat(et73.getText().toString())*(-0.19929294)
+                +Float.parseFloat(et74.getText().toString())*(-0.50852593)+Float.parseFloat(et75.getText().toString())*(-0.2367271)+Float.parseFloat(et76.getText().toString())*0.44766869
+                +Float.parseFloat(et77.getText().toString())*(-0.0145383)+Float.parseFloat(et78.getText().toString())*0.02635665+Float.parseFloat(et79.getText().toString())*0.28780378
+                +Float.parseFloat(et83.getText().toString())*(-0.00767651)+Float.parseFloat(et84.getText().toString())*(-0.2406815)+Float.parseFloat(et85.getText().toString())*(-0.24617918)
+                +Float.parseFloat(et86.getText().toString())*0.299539+Float.parseFloat(et87.getText().toString())*0.08413195+Float.parseFloat(et88.getText().toString())*(-0.43304298)
+                +Float.parseFloat(et94.getText().toString())*(-0.09224272)+Float.parseFloat(et95.getText().toString())*0.27430487+Float.parseFloat(et96.getText().toString())*(-0.15262125)
+                +Float.parseFloat(et97.getText().toString())*0.63074232;
+        abc = sigmoid(abc);
+        abc*=100;
+        Log.d(TAG, "onClick: "+abc);
+        intent.putExtra("Severity",abc);
         startActivity(intent);
     }
 }
